@@ -3,100 +3,100 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MHDe-com | Parfums & Beauté</title>
+<title>MHD-e.com | Parfums & Beauté</title>
 <style>
-:root{--gold:#d4af37;--black:#101010;--cream:#f8f4eb}
+:root{--or:#d4af37;--noir:#101010;--creme:#f8f4eb}
 *{box-sizing:border-box}
-body{margin:0;background:var(--cream);color:#191919;font-family:Arial,sans-serif}
-header{background:var(--black);color:white;text-align:center;padding:28px 16px;border-bottom:3px solid var(--gold)}
-.logo{font-family:Georgia,serif;color:var(--gold);font-size:34px;letter-spacing:3px;margin:0}
-header p{margin:8px 0 0;color:#eee;letter-spacing:2px;font-size:12px}
-nav{background:#1c1c1c;padding:13px;text-align:center}
-nav a{color:var(--gold);text-decoration:none;margin:0 12px;font-size:14px}
-.hero{text-align:center;padding:55px 18px;background:linear-gradient(135deg,#171717,#393022);color:white}
-.hero h2{font-family:Georgia,serif;font-size:34px;color:var(--gold);margin:0 0 12px}
-.hero p{line-height:1.6}
-.btn{display:inline-block;background:var(--gold);color:#111;padding:12px 20px;text-decoration:none;border-radius:4px;font-weight:bold;border:0;cursor:pointer}
-section{padding:30px 16px;max-width:1100px;margin:auto}
-h2.section-title{text-align:center;font-family:Georgia,serif}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
-.card{background:white;border:1px solid #e4d8b5;border-radius:8px;overflow:hidden;text-align:center;padding-bottom:20px}
-.photo{height:170px;background:#eee6d4;display:flex;align-items:center;justify-content:center;font-size:65px}
-.card h3{margin:15px 8px 7px}
-.card p{color:#666;font-size:14px;padding:0 10px}
-.price{color:#94700c;font-size:20px;font-weight:bold;margin:12px}
-.card button{margin:4px}
-.notice{text-align:center;background:#eee5d0;padding:20px;line-height:1.7}
-footer{background:#101010;color:#ddd;text-align:center;padding:25px;font-size:13px}
-footer strong{color:var(--gold)}
+body{margin:0;background:var(--noir);color:var(--creme);font-family:Arial,sans-serif}
+header{text-align:center;padding:28px 15px;border-bottom:2px solid var(--or)}
+.logo{font: bold 42px Georgia,serif;color:var(--or);margin:0}
+header p{letter-spacing:4px;margin:10px 0}
+nav{display:flex;justify-content:center;gap:25px;padding:18px;flex-wrap:wrap}
+a{color:var(--or);text-decoration:none}
+.hero{text-align:center;padding:65px 18px;background:#171008}
+.hero h2{font: bold 42px Georgia,serif;color:var(--or)}
+.hero p{font-size:19px;line-height:1.6}
+.btn{display:inline-block;background:#65300c;color:white;padding:14px 20px;border-radius:7px;font-weight:bold;margin-top:12px}
+section{padding:35px 18px;max-width:1100px;margin:auto}
+h2{text-align:center}
+.intro{text-align:center;color:#ddd;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{border:1px solid #55472b;border-radius:12px;padding:22px;text-align:center;background:#1b170e}
+.emoji{font-size:55px}
+.card h3{color:var(--or)}
+.card p{color:#ddd;line-height:1.5}
+.card .btn{margin-top:8px}
+footer{text-align:center;padding:28px;border-top:1px solid var(--or);line-height:1.8}
 </style>
 </head>
 <body>
 <header>
-<h1 class="logo">MHDe-com</h1>
+<h1 class="logo">MHD-e.com</h1>
 <p>PARFUMS • BEAUTÉ • ÉLÉGANCE</p>
 </header>
-<nav><a href="#accueil">Accueil</a><a href="#produits">Nos produits</a><a href="#contact">Contact</a></nav>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#produits">Nos produits</a>
+<a href="#contact">Contact</a>
+</nav>
+<main>
 <div class="hero" id="accueil">
 <h2>Révèle ton élégance</h2>
 <p>Découvrez notre sélection de parfums et de produits de beauté.</p>
 <a class="btn" href="#produits">Découvrir la collection</a>
 </div>
 <section id="produits">
-<h2 class="section-title">Notre collection</h2>
-<p style="text-align:center">Choisissez un produit et commandez directement sur WhatsApp.</p>
-<div class="products">
+<h2>Notre collection</h2>
+<p class="intro">Choisissez une catégorie et commandez directement sur WhatsApp.</p>
+<div class="grid">
 <div class="card">
-<div class="photo">🌹</div>
-<h3>Parfum Élégance</h3>
-<p>Un parfum raffiné pour toutes les occasions.</p>
-<div class="price">À partir de 5 000 FCFA</div>
-<button class="btn" onclick="commander('Parfum Élégance')">Commander</button>
-</div>
-<div class="card">
-<div class="photo">✨</div>
-<h3>Parfum Prestige</h3>
-<p>Une fragrance au caractère unique.</p>
-<div class="price">À partir de 7 500 FCFA</div>
-<button class="btn" onclick="commander('Parfum Prestige')">Commander</button>
+<div class="emoji">🦷</div>
+<h3>Blanchiment dentaire</h3>
+<p>Découvrez notre sélection de soins pour le sourire.</p>
+<a class="btn" href="https://wa.me/221769494435?text=Bonjour%20MHD-e.com%2C%20je%20souhaite%20commander%20un%20produit%20de%20blanchiment%20dentaire.">Commander</a>
 </div>
 <div class="card">
-<div class="photo">🧴</div>
-<h3>Soin du visage</h3>
-<p>Un soin beauté pour votre routine quotidienne.</p>
-<div class="price">À partir de 3 500 FCFA</div>
-<button class="btn" onclick="commander('Soin du visage')">Commander</button>
+<div class="emoji">🧴</div>
+<h3>Gels pour le visage</h3>
+<p>Des produits adaptés à votre routine beauté.</p>
+<a class="btn" href="https://wa.me/221769494435?text=Bonjour%2C%20je%20souhaite%20commander%20un%20gel%20pour%20le%20visage.">Commander</a>
 </div>
 <div class="card">
-<div class="photo">💄</div>
-<h3>Beauté & maquillage</h3>
-<p>Les essentiels pour compléter votre style.</p>
-<div class="price">À partir de 2 500 FCFA</div>
-<button class="btn" onclick="commander('Beauté & maquillage')">Commander</button>
+<div class="emoji">✨</div>
+<h3>Soins du corps</h3>
+<p>Découvrez nos produits de soin et d'hydratation.</p>
+<a class="btn" href="https://wa.me/221769494435?text=Bonjour%2C%20je%20souhaite%20commander%20un%20produit%20de%20soin%20du%20corps.">Commander</a>
+</div>
+<div class="card">
+<div class="emoji">🌹</div>
+<h3>Parfums</h3>
+<p>Trouvez votre prochaine fragrance préférée.</p>
+<a class="btn" href="https://wa.me/221769494435?text=Bonjour%2C%20je%20souhaite%20commander%20un%20parfum.">Commander</a>
+</div>
+<div class="card">
+<div class="emoji">💧</div>
+<h3>Sérums et crèmes</h3>
+<p>Complétez votre routine de soin du visage.</p>
+<a class="btn" href="https://wa.me/221769494435?text=Bonjour%2C%20je%20souhaite%20commander%20un%20s%C3%A9rum%20ou%20une%20cr%C3%A8me.">Commander</a>
+</div>
+<div class="card">
+<div class="emoji">🎁</div>
+<h3>Autres produits</h3>
+<p>Contactez-nous pour découvrir le reste de la collection.</p>
+<a class="btn" href="https://wa.me/221769494435?text=Bonjour%2C%20je%20souhaite%20d%C3%A9couvrir%20vos%20autres%20produits.">Commander</a>
 </div>
 </div>
-</section>
-<section class="notice">
-<h2>Commande et paiement</h2>
-<p>Commandez sur WhatsApp. Le vendeur vous confirmera le prix, la disponibilité et les modalités de paiement Wave avant tout règlement.</p>
-<a class="btn" href="#contact">Nous contacter</a>
 </section>
 <section id="contact">
-<h2 class="section-title">Contactez MHDe-com</h2>
-<p style="text-align:center">Pour commander, cliquez sur le bouton WhatsApp et indiquez le produit souhaité.</p>
-<div style="text-align:center"><button class="btn" onclick="commander('Bonjour, je souhaite découvrir vos produits')">Écrire sur WhatsApp</button></div>
+<h2>Contact et commandes</h2>
+<p class="intro">Une question ? Contactez directement MHD-e.com.</p>
+<p style="text-align:center"><a class="btn" href="https://wa.me/221769494435?text=Bonjour%20MHD-e.com%2C%20je%20voudrais%20des%20informations.">Nous écrire sur WhatsApp</a></p>
 </section>
-<footer><strong>MHDe-com</strong><p>Parfums & cosmétiques</p><p>© 2026 MHDe-com — Tous droits réservés.</p></footer>
-<script>
-const numeroWhatsApp = "";
-function commander(produit){
- if(!numeroWhatsApp){
-  alert("Le vendeur doit encore ajouter son numéro WhatsApp dans le code du site.");
-  return;
- }
- const message="Bonjour MHDe-com ! Je souhaite commander : "+produit+". Pouvez-vous confirmer la disponibilité, le prix et le paiement Wave ?";
- window.open("https://wa.me/"+numeroWhatsApp+"?text="+encodeURIComponent(message),"_blank");
-}
-</script>
+</main>
+<footer>
+<strong style="color:#d4af37">MHD-e.com</strong><br>
+Parfums • Beauté • Élégance<br>
+Commandes par WhatsApp
+</footer>
 </body>
 </html>
